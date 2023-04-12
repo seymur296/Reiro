@@ -1,0 +1,88 @@
+.feature {
+  width: 100%;
+  height: 102vh;
+  .h-6 {
+    width: 90%;
+    margin: auto;
+    h6 {
+      text-align: left;
+      font-size: 15px;
+      height: 5px;
+    }
+  }
+  .container-box {
+    border-radius: 30px;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    background-color: rgba(236, 236, 236, 0.767);
+    overflow: hidden;
+    .edit {
+      height: 30%;
+      margin-top: 50px;
+      h3 {
+        color: rgb(47, 47, 47);
+      }
+      h1 {
+        font-size: 3.5rem;
+        font-family: "Fraunces", serif;
+        font-weight: bolder;
+        height: 18vh;
+      }
+    }
+    .stories {
+      margin: auto;
+      width: 85%;
+      height: 60%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: relative;
+      .box1 {
+        width: 31%;
+        height: 85%;
+        background-color: rgba(255, 217, 0, 0.873);
+        border-radius: 25px;
+        padding-top: 25px;
+        transition: 0.3s ease-in;
+        box-sizing: content-box;
+        &:hover {
+          cursor: pointer;
+          margin-bottom: 20px;
+        }
+        .box-child {
+          width: 80%;
+          height: 62%;
+          overflow: hidden;
+          border-radius: 15px;
+          margin: auto;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .child-text {
+          margin: auto;
+          width: 80%;
+          text-align: left;
+          h2 {
+            padding-top: 10px;
+            height: 40px;
+            font-family: "Fraunces", serif;
+          }
+          p {
+            font-family: "Fraunces", serif;
+            a {
+              text-decoration: none;
+              color: black;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+}

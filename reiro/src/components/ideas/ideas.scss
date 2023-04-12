@@ -1,0 +1,224 @@
+.popular {
+  width: 100%;
+  height: 30vh;
+  .container-box {
+    width: 90%;
+    margin: auto;
+    .h-6 {
+      width: 100%;
+      text-align: left;
+      h6 {
+        color: rgb(46, 46, 46);
+        font-size: 16px;
+      }
+    }
+    .slides {
+      width: 100%;
+      height: 21vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      .idea {
+        width: 24vh;
+        height: 17vh;
+        background-image: url("https://reiro.fueko.net/content/images/size/w300/2022/10/photo-1655721529468-d0d81b2dc489.jpeg");
+        background-size: auto;
+        background-position: 0%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        border-radius: 35px;
+        transition: 0.3s ease-in-out;
+        position: relative;
+        cursor: pointer;
+
+        p {
+            position: absolute;
+            left: 10px;
+            bottom: 2px;
+            width: 20%;
+            color: rgb(41, 41, 41);
+            padding: 3px 6px 5px 6px;
+            background-color: white;
+            border-radius: 20px;
+        }
+        &:hover {
+            // transform: scale(1.03);
+            margin-bottom: 10px;
+        }
+      }
+      .Lifestyle {
+        width: 24vh;
+        height: 17vh;
+        background-image: url("https://reiro.fueko.net/content/images/size/w300/2022/10/photo-1557704595-ecd34dc3a4b9.jpeg");
+        background-size: auto;
+        background-position: 0%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        border-radius: 35px;
+        transition: 0.3s ease-in-out;
+        position: relative;
+        cursor: pointer;
+
+        p {
+            position: absolute;
+            left: 10px;
+            bottom: 2px;
+            width: 40%;
+            color: rgb(41, 41, 41);
+            padding: 3px 6px 5px 6px;
+            background-color: white;
+            border-radius: 20px;
+        }
+        &:hover {
+            // transform: scale(1.03);
+            margin-bottom: 10px;
+        }
+      }
+      .Design {
+        width: 24vh;
+        height: 17vh;
+        background-image: url("https://reiro.fueko.net/content/images/size/w300/2022/10/photo-1611486212557-88be5ff6f941.jpeg");
+        background-size: auto;
+        background-position: 0%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        border-radius: 35px;
+        transition: 0.3s ease-in-out;
+        position: relative;
+        cursor: pointer;
+
+        p {
+            position: absolute;
+            left: 10px;
+            bottom: 2px;
+            width: 35%;
+            color: rgb(41, 41, 41);
+            padding: 3px 6px 5px 6px;
+            background-color: white;
+            border-radius: 20px;
+        }
+        &:hover {
+            // transform: scale(1.03);
+            margin-bottom: 10px;
+        }
+      }
+
+      .Health {
+        width: 24vh;
+        height: 17vh;
+        background-image: url("https://reiro.fueko.net/content/images/size/w300/2022/10/photo-1657299170129-858a7f31a794.jpeg");
+        background-size: auto;
+        background-position: 0%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        border-radius: 35px;
+        transition: 0.3s ease-in-out;
+        position: relative;
+        cursor: pointer;
+
+        p {
+            position: absolute;
+            left: 10px;
+            bottom: 2px;
+            width: 35%;
+            color: rgb(41, 41, 41);
+            padding: 3px 6px 5px 6px;
+            background-color: white;
+            border-radius: 20px;
+        }
+        &:hover {
+            // transform: scale(1.03);
+            margin-bottom: 10px;
+        }
+      }
+
+      .Interior {
+        width: 24vh;
+        height: 17vh;
+        background-image: url("https://reiro.fueko.net/content/images/size/w300/2022/10/photo-1631679706909-1844bbd07221.jpeg");
+        background-size: auto;
+        background-position: 0%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        border-radius: 35px;
+        transition: 0.3s ease-in-out;
+        position: relative;
+        cursor: pointer;
+
+        p {
+            position: absolute;
+            left: 10px;
+            bottom: 2px;
+            width: 35%;
+            color: rgb(41, 41, 41);
+            padding: 3px 6px 5px 6px;
+            background-color: white;
+            border-radius: 20px;
+        }
+        &:hover {
+            // transform: scale(1.03);
+            margin-bottom: 10px;
+        }
+      }
+
+      .Eco {
+        width: 24vh;
+        height: 17vh;
+        background-image: url("https://reiro.fueko.net/content/images/size/w300/2022/10/vonvix-mYc0ivMNvCI-unsplash.jpg");
+        background-size: auto;
+        background-position: 0%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        border-radius: 35px;
+        transition: 0.3s ease-in-out;
+        position: relative;
+        cursor: pointer;
+
+        p {
+            position: absolute;
+            left: 10px;
+            bottom: 2px;
+            width: 20%;
+            color: rgb(41, 41, 41);
+            padding: 3px 6px 5px 6px;
+            background-color: white;
+            border-radius: 20px;
+        }
+        &:hover {
+            // transform: scale(1.03);
+            margin-bottom: 10px;
+        }
+      }
+
+      .Review {
+        width: 24vh;
+        height: 17vh;
+        background-image: url("https://reiro.fueko.net/content/images/size/w300/2022/10/photo-1627463869605-48fbcda8253b.jpeg");
+        background-size: auto;
+        background-position: 0%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        border-radius: 35px;
+        transition: 0.3s ease-in-out;
+        position: relative;
+        cursor: pointer;
+
+        p {
+            position: absolute;
+            left: 10px;
+            bottom: 2px;
+            width: 40%;
+            color: rgb(41, 41, 41);
+            padding: 3px 6px 5px 6px;
+            background-color: white;
+            border-radius: 20px;
+        }
+        &:hover {
+            // transform: scale(1.03);
+            margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

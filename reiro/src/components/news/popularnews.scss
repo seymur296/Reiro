@@ -1,0 +1,245 @@
+.news {
+  width: 100%;
+  height: 210vh;
+  .container-box {
+    height: 100%;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    overflow: hidden;
+    .healt-news {
+      height: 100%;
+      width: 70%;
+      .h-6 {
+        text-align: left;
+        width: 100%;
+        h6 {
+          font-size: 16px;
+          color: rgb(37, 37, 37);
+        }
+      }
+      .img1 {
+        width: 100%;
+        overflow: hidden;
+        border-radius: 30px;
+        height: 47%;
+        margin-bottom: 10px;
+        img {
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+          transition: 0.3s ease-in-out;
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+      .life-style {
+        text-align: left;
+
+        button {
+          padding: 4px 10px;
+          margin: 5px;
+          border: none;
+          border-radius: 14px;
+          font-weight: bold;
+          transition: 0.3s ease-in-out;
+          color: gray;
+          cursor: pointer;
+          &:hover {
+            background-color: rgba(208, 208, 208, 0.853);
+          }
+        }
+      }
+      .h-1 {
+        text-align: left;
+        width: 80%;
+        a {
+          text-decoration: none;
+          color: black;
+
+          h1 {
+            font-size: 3.5rem;
+            font-family: "Times New Roman", Times, serif;
+            font-weight: bolder;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+        p {
+          font-size: 25px;
+          font-family: "Courier New", Courier, monospace;
+          color: rgb(62, 62, 62);
+          font-weight: bold;
+        }
+      }
+      .authors {
+        width: 100%;
+        height: 13vh;
+        display: flex;
+        text-align: center;
+        align-items: center;
+
+        .damian {
+          width: 11%;
+          height: 70%;
+          overflow: hidden;
+          transition: 0.2s ease-in;
+          &:hover {
+            margin-bottom: 5px;
+            cursor: pointer;
+          }
+          img {
+            width: 65%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+        .p-tag {
+          width: 85%;
+          text-align: left;
+          p {
+            color: gray;
+            a {
+              color: gray;
+              text-decoration: none;
+              &:hover {
+                text-decoration: underline;
+                color: black;
+              }
+            }
+          }
+        }
+      }
+    }
+    .newsletter {
+      width: 30%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      margin-top: 95px;
+      .box1 {
+        margin-bottom: 25px;
+        width: 95%;
+        height: 20%;
+        background-color: rgba(255, 217, 0, 0.873);
+        border-radius: 30px;
+        position: relative;
+        overflow: hidden;
+        .box-child {
+          position: absolute;
+          top: -15px;
+          left: 30px;
+          width: 85%;
+          height: 100%;
+          h6 {
+            font-size: 15px;
+            text-align: left;
+            font-weight: 400;
+            height: 90px;
+          }
+          span {
+            font-weight: bold;
+
+            text-align: left;
+            font-size: 1.6rem;
+            font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
+              serif;
+          }
+          input {
+            padding: 14px 50px;
+            outline: none;
+            border: none;
+            border-radius: 30px;
+            font-size: 17px;
+            margin: 0 0 10px 0;
+            text-align: center;
+          }
+          button {
+            padding: 14px 100px;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+            color: rgb(0, 0, 0);
+            border-radius: 30px;
+            transition: 0.3s ease-in-out;
+            &:hover {
+              padding: 14px 119px;
+            }
+          }
+        }
+      }
+      .box2 {
+        margin: 12px 0;
+        width: 95%;
+        height: 20%;
+        background-color: rgba(255, 217, 0, 0.873);
+        overflow: hidden;
+        border-radius: 30px;
+        
+        img {
+          transition: 0.3s ease-in-out;
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+      .life-style {
+        width: 95%;
+        align-items: start;
+        text-align: left;
+        button {
+          padding: 4px 10px;
+          margin: 5px;
+          border: none;
+          border-radius: 14px;
+          font-weight: bold;
+          transition: 0.3s ease-in-out;
+          color: gray;
+          cursor: pointer;
+          &:hover {
+            background-color: rgba(208, 208, 208, 0.853);
+          }
+        }
+      }
+      .h-1 {
+        text-align: left;
+        width: 94%;
+        a {
+          text-decoration: none;
+          color: black;
+          h4 {
+            font-size: 1.5rem;
+            font-family: "Times New Roman", Times, serif;
+            font-weight: bold;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+      .p-tag {
+        width: 94%;
+        text-align: left;
+        p {
+          color: rgb(89, 89, 89);
+          a {
+            color: rgb(62, 62, 62);
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+              color: black;
+            }
+          }
+        }
+      }
+    
+    }
+  }
+}

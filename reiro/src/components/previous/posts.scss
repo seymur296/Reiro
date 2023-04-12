@@ -1,0 +1,558 @@
+.post {
+  width: 100%;
+  height: 190vh;
+  overflow: hidden;
+  margin-top: 50px;
+
+  .h-6 {
+    width: 90%;
+    margin: auto;
+    height: 30px;
+    h6 {
+      text-align: left;
+      font-size: 15px;
+    }
+  }
+  .container-box {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    .post-1 {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      justify-content: space-between;
+      .box-1 {
+        width: 30%;
+        height: 90%;
+        overflow: hidden;
+
+        .box-img {
+          width: 100%;
+          height: 60%;
+          overflow: hidden;
+          border-radius: 30px;
+
+          .box-child1 {
+            width: 100%;
+            height: 100%;
+            background-image: url("https://reiro.fueko.net/content/images/size/w600/2022/10/photo-1642698335353-c7866176c8ee.jpeg");
+            background-size: cover;
+            background-position: 0%;
+            background-repeat: no-repeat;
+            transition: 0.2s ease-in;
+            cursor: pointer;
+            &:hover {
+              transform: scale(1.05);
+            }
+          }
+        }
+
+        .box-child2 {
+          width: 100%;
+          padding-top: 10px;
+          height: 1%;
+          .btns {
+            width: 100%;
+            text-align: left;
+
+            a {
+              text-decoration: none;
+              button {
+                font-weight: bold;
+                margin-right: 10px;
+                border: none;
+                border-radius: 10px;
+                padding: 4px 8px;
+                color: rgb(70, 70, 70);
+                cursor: pointer;
+                transition: 0.3s ease-in;
+                &:hover {
+                   background-color: rgb(202, 202, 202);
+                }
+              }
+            }
+          }
+        }
+        .box-child3 {
+          width: 100%;
+          text-align: left;
+          a {
+            text-decoration: none;
+            color: black;
+            &:hover {
+              text-decoration: underline;
+            }
+            h2 {
+              padding-top: 10px;
+              height: 40px;
+              font-family: "Fraunces", serif;
+            }
+          }
+          p {
+            color: rgb(61, 61, 61);
+            font-weight: 300;
+            padding-top: 7px;
+            a {
+              height: 10px;
+              text-decoration: none;
+              color: rgb(61, 61, 61);
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+
+      .box-2 {
+        width: 30%;
+        height: 90%;
+        overflow: hidden;
+
+        .box-img {
+          width: 100%;
+          height: 60%;
+          overflow: hidden;
+          border-radius: 30px;
+
+          .box-child1 {
+            width: 100%;
+            height: 100%;
+            background-image: url("https://reiro.fueko.net/content/images/size/w600/2022/10/photo-1600607686527-6fb886090705.jpeg");
+            background-size: cover;
+            background-position: 0%;
+            background-repeat: no-repeat;
+            transition: 0.2s ease-in;
+            cursor: pointer;
+            &:hover {
+              transform: scale(1.05);
+            }
+          }
+        }
+
+        .box-child2 {
+          width: 100%;
+          padding-top: 10px;
+          height: 1%;
+          .btns {
+            width: 100%;
+            text-align: left;
+
+            a {
+              text-decoration: none;
+              button {
+                font-weight: bold;
+                margin-right: 10px;
+                border: none;
+                border-radius: 10px;
+                padding: 4px 8px;
+                color: rgb(70, 70, 70);
+                cursor: pointer;
+                transition: 0.3s ease-in;
+                &:hover {
+                   background-color: rgb(202, 202, 202);
+                }
+              }
+            }
+          }
+        }
+        .box-child3 {
+          width: 100%;
+          text-align: left;
+          a {
+            text-decoration: none;
+            color: black;
+            &:hover {
+              text-decoration: underline;
+            }
+            h2 {
+              padding-top: 10px;
+              height: 40px;
+              font-family: "Fraunces", serif;
+            }
+          }
+          p {
+            color: rgb(61, 61, 61);
+            font-weight: 300;
+            padding-top: 7px;
+            a {
+              height: 10px;
+              text-decoration: none;
+              color: rgb(61, 61, 61);
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+
+      .box-3 {
+        width: 30%;
+        height: 90%;
+        overflow: hidden;
+
+        .box-img {
+          width: 100%;
+          height: 60%;
+          overflow: hidden;
+          border-radius: 30px;
+
+          .box-child1 {
+            width: 100%;
+            height: 100%;
+            background-image: url("https://reiro.fueko.net/content/images/size/w600/2022/10/photo-1606787364410-947e10173148.jpeg");
+            background-size: cover;
+            background-position: 0%;
+            background-repeat: no-repeat;
+            transition: 0.2s ease-in;
+            cursor: pointer;
+            &:hover {
+              transform: scale(1.05);
+            }
+          }
+        }
+
+        .box-child2 {
+          width: 100%;
+          padding-top: 10px;
+          height: 1%;
+          .btns {
+            width: 100%;
+            text-align: left;
+
+            a {
+              text-decoration: none;
+              button {
+                font-weight: bold;
+                margin-right: 10px;
+                border: none;
+                border-radius: 10px;
+                padding: 4px 8px;
+                color: rgb(70, 70, 70);
+                cursor: pointer;
+                transition: 0.3s ease-in;
+                &:hover {
+                   background-color: rgb(202, 202, 202);
+                }
+              }
+            }
+          }
+        }
+        .box-child3 {
+          width: 100%;
+          text-align: left;
+          a {
+            text-decoration: none;
+            color: black;
+            &:hover {
+              text-decoration: underline;
+            }
+            h2 {
+              padding-top: 10px;
+              height: 40px;
+              font-family: "Fraunces", serif;
+            }
+          }
+
+          p {
+            color: rgb(61, 61, 61);
+            font-weight: 300;
+            padding-top: 7px;
+            a {
+              height: 10px;
+              text-decoration: none;
+              color: rgb(61, 61, 61);
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .post-2 {
+      width: 100%;
+      height: 50%;
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      .box-1 {
+        width: 30%;
+        height: 90%;
+        overflow: hidden;
+
+        .box-img {
+          width: 100%;
+          height: 60%;
+          overflow: hidden;
+          border-radius: 30px;
+
+          .box-child1 {
+            width: 100%;
+            height: 100%;
+            background-image: url("https://reiro.fueko.net/content/images/size/w600/2022/10/photo-1559056390-e18db56c3d77.jpeg");
+            background-size: cover;
+            background-position: 0%;
+            background-repeat: no-repeat;
+            transition: 0.2s ease-in;
+            cursor: pointer;
+            &:hover {
+              transform: scale(1.05);
+            }
+          }
+        }
+
+        .box-child2 {
+          width: 100%;
+          padding-top: 10px;
+          height: 1%;
+          .btns {
+            width: 100%;
+            text-align: left;
+
+            a {
+              text-decoration: none;
+              button {
+                font-weight: bold;
+                margin-right: 10px;
+                border: none;
+                border-radius: 10px;
+                padding: 4px 8px;
+                color: rgb(70, 70, 70);
+                cursor: pointer;
+                transition: 0.3s ease-in;
+                &:hover {
+                   background-color: rgb(202, 202, 202);
+                }
+              }
+            }
+          }
+        }
+        .box-child3 {
+          width: 100%;
+          text-align: left;
+          a {
+            text-decoration: none;
+            color: black;
+            &:hover {
+              text-decoration: underline;
+            }
+            h2 {
+              padding-top: 10px;
+              height: 40px;
+              font-family: "Fraunces", serif;
+            }
+          }
+          p {
+            color: rgb(61, 61, 61);
+            font-weight: 300;
+            padding-top: 7px;
+            a {
+              height: 10px;
+              text-decoration: none;
+              color: rgb(61, 61, 61);
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+
+      .box-2 {
+        width: 30%;
+        height: 90%;
+        overflow: hidden;
+
+        .box-img {
+          width: 100%;
+          height: 60%;
+          overflow: hidden;
+          border-radius: 30px;
+
+          .box-child1 {
+            width: 100%;
+            height: 100%;
+            background-image: url("https://reiro.fueko.net/content/images/size/w600/2022/10/photo-1664324830476-a9867ac0619f.jpeg");
+            background-size: cover;
+            background-position: 0%;
+            background-repeat: no-repeat;
+            transition: 0.2s ease-in;
+            cursor: pointer;
+            &:hover {
+              transform: scale(1.05);
+            }
+          }
+        }
+
+        .box-child2 {
+          width: 100%;
+          padding-top: 10px;
+          height: 1%;
+          .btns {
+            width: 100%;
+            text-align: left;
+
+            a {
+              text-decoration: none;
+              button {
+                font-weight: bold;
+                margin-right: 10px;
+                border: none;
+                border-radius: 10px;
+                padding: 4px 8px;
+                color: rgb(70, 70, 70);
+                cursor: pointer;
+                transition: 0.3s ease-in;
+                &:hover {
+                   background-color: rgb(202, 202, 202);
+                }
+              }
+            }
+          }
+        }
+        .box-child3 {
+          width: 100%;
+          text-align: left;
+          a {
+            text-decoration: none;
+            color: black;
+            &:hover {
+              text-decoration: underline;
+            }
+            h2 {
+              padding-top: 10px;
+              height: 40px;
+              font-family: "Fraunces", serif;
+            }
+          }
+          p {
+            color: rgb(61, 61, 61);
+            font-weight: 300;
+            padding-top: 7px;
+            a {
+              height: 10px;
+              text-decoration: none;
+              color: rgb(61, 61, 61);
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+
+      .box-3 {
+        width: 30%;
+        height: 90%;
+        overflow: hidden;
+
+        .box-img {
+          width: 100%;
+          height: 60%;
+          overflow: hidden;
+          border-radius: 30px;
+
+          .box-child1 {
+            width: 100%;
+            height: 100%;
+            background-image: url("https://reiro.fueko.net/content/images/size/w600/2022/10/photo-1580377968154-e234b38fcf9d.jpeg");
+            background-size: cover;
+            background-position: 0%;
+            background-repeat: no-repeat;
+            transition: 0.2s ease-in;
+            cursor: pointer;
+            &:hover {
+              transform: scale(1.05);
+            }
+          }
+        }
+
+        .box-child2 {
+          width: 100%;
+          padding-top: 10px;
+          height: 1%;
+          .btns {
+            width: 100%;
+            text-align: left;
+
+            a {
+              text-decoration: none;
+              button {
+                font-weight: bold;
+                margin-right: 10px;
+                border: none;
+                border-radius: 10px;
+                padding: 4px 8px;
+                color: rgb(70, 70, 70);
+                cursor: pointer;
+                transition: 0.3s ease-in;
+                &:hover {
+                   background-color: rgb(202, 202, 202);
+                }
+              }
+            }
+          }
+        }
+        .box-child3 {
+          width: 100%;
+          text-align: left;
+          a {
+            text-decoration: none;
+            color: black;
+            &:hover {
+              text-decoration: underline;
+            }
+            h2 {
+              padding-top: 10px;
+              height: 40px;
+              font-family: "Fraunces", serif;
+            }
+          }
+
+          p {
+            color: rgb(61, 61, 61);
+            font-weight: 300;
+            padding-top: 7px;
+            a {
+              height: 10px;
+              text-decoration: none;
+              color: rgb(61, 61, 61);
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .btn1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    button {
+      padding:18px 30px;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 18px;
+      background-color: rgba(255, 217, 0, 0.873);
+      transition: 0.2s ease-in;
+      border: none;
+      cursor: pointer;
+      &:hover {
+      padding:18px 40px;
+      color: rgba(0, 0, 0, 0.438);
+      }
+    }
+  }
+}

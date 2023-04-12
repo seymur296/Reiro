@@ -1,0 +1,73 @@
+.header {
+  width: 100%;
+  height: 13vh;
+
+
+  .container-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    height: 100%;
+    .logo-header {
+      width: 8%;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+    .logo-nav {
+      padding-left: 20px;
+      width: 48%;
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        li {
+          padding: 10px 0;
+          a {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            outline: none;
+            padding: 0 15px;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+    .logo-button {
+      display: flex;
+      align-items: center;
+      text-align: end;
+      justify-content: flex-end;
+      width: 44%;
+      a {
+        text-decoration: none;
+        color: black;
+        margin: 0 10px;
+        font-weight: bolder;
+        button {
+          padding: 10px 20px;
+          font-size: 17px;
+          font-weight: bold;
+          border: none;
+          border-radius: 30px;
+          background-color: rgba(255, 217, 0, 0.873);
+          font-family: Georgia, "Times New Roman", Times, serif;
+          transition: 0.3s ease-in-out;
+          cursor: pointer;
+          &:hover {
+            background-color: rgba(232, 199, 13, 0.774);
+          }
+        }
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
